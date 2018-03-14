@@ -27,7 +27,7 @@ Before you are able to use your extension, you should build it and load it at th
 
 ```
 $ tar -zxf pg_similarity-0.0.19.tgz
-$ cd pg_similarity-0.0.19
+$ cd pg_similarity
 $ $EDITOR Makefile # edit PG_CONFIG iif necessary
 $ USE_PGXS=1 make
 $ USE_PGXS=1 make install
